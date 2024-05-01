@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cursoApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a17d3c15a319443f1236604b7d2018cf9aac61a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c304cf86cc7caf56a77fcdd9d380c366024781a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("cursoApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cursoApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
