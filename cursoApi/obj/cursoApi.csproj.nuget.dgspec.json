@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Didjtyrjeu\\Desktop\\5\\cursoApi\\cursoApi.csproj": {}
+    "C:\\Users\\Didjtyrjeu\\Desktop\\9\\cursoApi\\cursoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Didjtyrjeu\\Desktop\\5\\cursoApi\\cursoApi.csproj": {
+    "C:\\Users\\Didjtyrjeu\\Desktop\\9\\cursoApi\\cursoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Didjtyrjeu\\Desktop\\5\\cursoApi\\cursoApi.csproj",
+        "projectUniqueName": "C:\\Users\\Didjtyrjeu\\Desktop\\9\\cursoApi\\cursoApi.csproj",
         "projectName": "cursoApi",
-        "projectPath": "C:\\Users\\Didjtyrjeu\\Desktop\\5\\cursoApi\\cursoApi.csproj",
+        "projectPath": "C:\\Users\\Didjtyrjeu\\Desktop\\9\\cursoApi\\cursoApi.csproj",
         "packagesPath": "C:\\Users\\Didjtyrjeu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Didjtyrjeu\\Desktop\\5\\cursoApi\\obj\\",
+        "outputPath": "C:\\Users\\Didjtyrjeu\\Desktop\\9\\cursoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Didjtyrjeu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.4, )"
