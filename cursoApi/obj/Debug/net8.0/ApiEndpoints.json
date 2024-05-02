@@ -1,5 +1,57 @@
 [
   {
+    "ContainingType": "cursoApi.Controllers.AccountController",
+    "Method": "CreateUser",
+    "RelativePath": "api/Account/CreateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "cursoApi.ViewModels.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "cursoApi.ViewModels.UserToken",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "cursoApi.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/LoginUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userInfo",
+        "Type": "cursoApi.ViewModels.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "cursoApi.ViewModels.UserToken",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "cursoApi.Controllers.AlunosController",
     "Method": "GetAlunos",
     "RelativePath": "api/Alunos",
