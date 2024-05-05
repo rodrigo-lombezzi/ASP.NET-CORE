@@ -1,17 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import './styles.css';
-import loginImg from '../../assets/login.png'; // Added 'from'
+import loginImg from '../../assets/login.png';
+import { useNavigate } from 'react-router-dom';
 
-export default function Login(){
-    return(
+export default function Login() {
+
+    return (
         <div className="login-container">
             <section className="form">
                 <img src={loginImg} alt="Login" />
-                <form>
-                <h1 >Cadastro de Alunos</h1>    
-                    <input placeholder="Email"/>
+                <form onSubmit={login}>
+                    <h1 >Cadastro de Alunos</h1>
+                    <input placeholder="Email" value={email} />
                     <input type="password" placeholder="Password" />
-                    <button class="button" type="submit" >Login</button>    
+                    <button className="button" type="submit">Login</button>
                 </form>
             </section>
         </div>
