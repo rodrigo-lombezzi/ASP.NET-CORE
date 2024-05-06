@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8y6ovrXzKLw10u4gO1nozjrDNWAQkVdG4Tn9+OISm7mbscgr2T/kT0HlzAlicW+XtDtYq9czyJ/+zFqcecUYvQ==",
+  "dgSpecHash": "87fHMMe5RFYsA7SrynYbVgXQ+oGBB0p5juWUF44xoux94K3/N9JWP27TQPA0cyMlPZgMji3HfW4uTKvKnYGE/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Didjtyrjeu\\Desktop\\Nova pasta (5)\\cursoApi\\cursoApi.csproj",
+  "projectFilePath": "C:\\Users\\Didjtyrjeu\\Desktop\\Nova pasta (6)\\cursoApi\\cursoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Didjtyrjeu\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Didjtyrjeu\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
