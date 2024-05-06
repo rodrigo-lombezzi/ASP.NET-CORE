@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import './styles.css';
 import loginImg from '../../assets/login.png';
 import { useNavigate } from 'react-router-dom';
+import api from '../../services/api';
 
 export default function Login() {
     const [email, setEmail] = useState('');
@@ -23,7 +24,7 @@ export default function Login() {
             localStorage.setItem('token', response.data.token);
             localStorage.setItem('expiration', response.data.expiration);
 
-            navigate('/alunos'); // Navega para a rota '/alunos'
+            navigate('/alunos'); 
         } catch (error) {
             alert('O login falhou' + error);
         }
