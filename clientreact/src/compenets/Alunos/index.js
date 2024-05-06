@@ -10,7 +10,6 @@ export default function Alunos() {
    const [alunos, setAlunos] = useState([]);
    const email = localStorage.getItem('email');
    const token = localStorage.getItem('token');
-
    const navigate = useNavigate();
 
    const authorization = {
@@ -19,23 +18,31 @@ export default function Alunos() {
       }
    };
 
-   useEffect( ()=> {
-      api.get('api/alunos', authorization).then(
-      response=> {setAlunos(response.data);
-      }, token)
-   })
+   useEffect(() => {
+      api.get('api/alunos', authorization)
+         .then(response => setAlunos(response.data))
+         .catch(error => console.error('Erro ao carregar alunos:', error));
+   }, [token]);
 
    async function logout() {
       try {
          localStorage.clear();
          localStorage.setItem('token', '');
          authorization.headers = {};
-         history.push('/');
+         navigate('/');
       } catch (err) {
          alert('Não foi possível fazer o logout: ' + err);
       }
    }
-   
+
+   function editAluno(id) {
+      try {
+         navigate(`aluno/novo/${id}`);
+      } catch (error) {
+         alert('Não foi possível editar o aluno');
+      }
+   }
+
    return (
       <div className="aluno-container">
          <header>
@@ -59,7 +66,7 @@ export default function Alunos() {
                   <b>Nome: </b>{aluno.nome} <br/><br/>
                   <b>Email: </b>{aluno.email}<br/><br/>
                   <b>Idade: </b>{aluno.idade}<br/><br/>
-                  <button type="button">
+                  <button type="button" onClick={() => editAluno(aluno.id)}>
                      <FiEdit size="25" color="#17202a" />
                   </button>
                   <button type="button">

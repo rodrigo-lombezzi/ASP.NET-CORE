@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Didjtyrjeu\\Desktop\\Nova pasta (4)\\cursoApi\\cursoApi.csproj": {}
+    "C:\\Users\\Didjtyrjeu\\Desktop\\Nova pasta (5)\\cursoApi\\cursoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Didjtyrjeu\\Desktop\\Nova pasta (4)\\cursoApi\\cursoApi.csproj": {
+    "C:\\Users\\Didjtyrjeu\\Desktop\\Nova pasta (5)\\cursoApi\\cursoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Didjtyrjeu\\Desktop\\Nova pasta (4)\\cursoApi\\cursoApi.csproj",
+        "projectUniqueName": "C:\\Users\\Didjtyrjeu\\Desktop\\Nova pasta (5)\\cursoApi\\cursoApi.csproj",
         "projectName": "cursoApi",
-        "projectPath": "C:\\Users\\Didjtyrjeu\\Desktop\\Nova pasta (4)\\cursoApi\\cursoApi.csproj",
+        "projectPath": "C:\\Users\\Didjtyrjeu\\Desktop\\Nova pasta (5)\\cursoApi\\cursoApi.csproj",
         "packagesPath": "C:\\Users\\Didjtyrjeu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Didjtyrjeu\\Desktop\\Nova pasta (4)\\cursoApi\\obj\\",
+        "outputPath": "C:\\Users\\Didjtyrjeu\\Desktop\\Nova pasta (5)\\cursoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Didjtyrjeu\\AppData\\Roaming\\NuGet\\NuGet.Config",
